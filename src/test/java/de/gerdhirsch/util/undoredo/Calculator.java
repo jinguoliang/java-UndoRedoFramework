@@ -1,4 +1,4 @@
-package de.gerdhirsch.util.undoredo.test;
+package de.gerdhirsch.util.undoredo;
 
 public class Calculator {
 	int result;

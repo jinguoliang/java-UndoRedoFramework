@@ -1,4 +1,4 @@
-package de.gerdhirsch.util.undoredo.test;
+package de.gerdhirsch.util.undoredo;
 
 import de.gerdhirsch.util.undoredo.Command;
 

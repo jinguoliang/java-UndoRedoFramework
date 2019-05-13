@@ -1,4 +1,4 @@
-package de.gerdhirsch.util.undoredo.test;
+package de.gerdhirsch.util.undoredo;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
@@ -56,7 +56,7 @@ public class UndoRedoManagerTest extends UndoRedoTest {
 		// in den unmodified State
 		urMngr.doIt(plus); // modified Count == 3 undoStack.size == 2
 		assertThat(urMngr.isModified(), is(true));
-		//nach neuem Command darf kein redo mehr möglich sein
+		//nach neuem Command darf kein redo mehr mï¿½glich sein
 		assertThat(urMngr.isRedoable(), is(false));
 		
 		while(urMngr.isUndoable()){
